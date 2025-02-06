@@ -25,6 +25,12 @@
 // ticketPrice=(ticketPrice*5)
 // document.write("cost of buying 5 tickets is " + ticketPrice)
 // let table;
+// let celsius = (25)
+// let farhen =(29)
+// let resC = (29-25 * 5/9)
+// document.write(resC)
+// let resF =(celsius*9/5+farhen +"\n")
+// document.write( "\n" +resF)
 // let price1 = (300);
 // let price2 = (350);
 // let order1 = (40)
@@ -58,3 +64,13 @@
 // let amountSnacks= (2)
 // let result =(maxAge-age)
 // document.write(result*amountSnacks)
+let valuea =(10)
+document.write(valuea + "\n")
+document.write(++valuea +"\n") 
+document.write(valuea++ +"\n")
+let res =(valuea++ +"\n")
+document.write(--valuea + "\n")
+document.write(valuea-- )
+let resu =(valuea--)
+document.write(resu)
+
