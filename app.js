@@ -64,13 +64,61 @@
 // let amountSnacks= (2)
 // let result =(maxAge-age)
 // document.write(result*amountSnacks)
-let valuea =(10)
-document.write(valuea + "\n")
-document.write(++valuea +"\n") 
-document.write(valuea++ +"\n")
-let res =(valuea++ +"\n")
-document.write(--valuea + "\n")
-document.write(valuea-- )
-let resu =(valuea--)
-document.write(resu)
+// let valuea =(10)
+// document.write(valuea + "\n")
+// document.write(++valuea +"\n") 
+// document.write(valuea++ +"\n")
+// let res =(valuea++ +"\n")
+// document.write(--valuea + "\n")
+// document.write(valuea-- )
+// let resu =(valuea--)
+// document.write(resu)
+// var a =(2)
+// var b =(1)
+// --a = 1 step1
+// --a- --b (1-0) step2
+// --a - --b + ++b step3 +1
+// --a - --b + ++b +b--  1
+// var result =(3)
+// var user = prompt("whats your name?")
+// alert("hello" +  user)
+
+let subj1 =prompt("enter subject1")
+let subj2 =prompt("enter subject2")
+let subj3 =prompt("enter subject3")
+
+let totalmarks = (500)
+let obtainedMarksSubj1=prompt("enter your marks")
+let perc1 = (obtainedMarksSubj1*100/totalmarks)
+let obtainedMarksSubj2=prompt("enter your marks")
+let perc2 = (obtainedMarksSubj2*100/totalmarks)
+
+let obtainedMarksSubj3=prompt("enter your marks")
+let perc3 = (obtainedMarksSubj3*100/totalmarks)
+
+
+
+document.write('<Table>')
+document.write('<tr>');
+document.write('<th>'+'Subjects '+'</th>')
+document.write('<th>'+' Total'+'</th>')
+document.write('<th>'+' Obtained Marks '+'</th>')
+document.write('<th>'+' Percentage '+'</th>')
+document.write('</tr>');
+document.write('<tr>');
+document.write(english)
+document.write(totalmarks)
+document.write(obtainedMarksSubj1)
+document.write(perc1)
+document.write('</tr>')
+document.write(maths)
+document.write(totalmarks)
+document.write(obtainedMarksSubj2)
+document.write(perc2)
+document.write('</tr>')
+document.write(urdu)
+document.write(totalmarks)
+document.write(obtainedMarksSubj3)
+document.write(perc3)
+document.write('</tr>')
 
