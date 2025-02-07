@@ -122,3 +122,4 @@ document.write(obtainedMarksSubj3)
 document.write(perc3)
 document.write('</tr>')
 
+document.write('</table')
